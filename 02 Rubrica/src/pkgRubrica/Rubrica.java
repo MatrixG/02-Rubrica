@@ -13,14 +13,16 @@ public class Rubrica {
 	}
 	
 	public Rubrica(String nomeRubrica) {
-		super();
+		
 		this.nomeRubrica = nomeRubrica;
 	}
 	
 	public String getNomeRubrica() {
+		
 		return nomeRubrica;
 	}
 	public void setNomeRubrica(String nomeRubrica) {
+		
 		this.nomeRubrica = nomeRubrica;
 	}
 	
@@ -48,6 +50,7 @@ public class Rubrica {
 	}
 	
 	public void eliminaContatto (String nome, String cognome){
+		
 		int i = 0;
 		
 		for (Contatto cnt : contatti){
