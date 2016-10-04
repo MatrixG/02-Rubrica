@@ -27,7 +27,7 @@ public class Rubrica {
 	}
 	
 
-	
+	//Add a contact
 	public boolean aggiungiContatto(String nome, String cognome, String cel){
 		
 		Contatto temp = new Contatto(nome, cognome, cel);
@@ -35,6 +35,7 @@ public class Rubrica {
 		return contatti.add(temp);	
 	}
 	
+	//Search a contact. Null if not found
 	public String cercaContatto(String nome, String cognome){
 		
 		for (Contatto cnt : contatti){
@@ -49,6 +50,7 @@ public class Rubrica {
 		return null;
 	}
 	
+	//Delete a contact
 	public void eliminaContatto (String nome, String cognome){
 		
 		int i = 0;
