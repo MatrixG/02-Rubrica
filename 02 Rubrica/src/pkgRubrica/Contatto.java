@@ -12,7 +12,7 @@ public class Contatto {
 	}
 	
 	public Contatto(String nome, String cognome, String telefono) {
-		super();
+		
 		this.nome = nome;
 		this.cognome = cognome;
 		this.telefono = telefono;
